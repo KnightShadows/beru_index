@@ -1,0 +1,15 @@
+[package]
+name = "googletest"
+version = "1.17.0"
+
+[source]
+git = "https://github.com/google/googletest.git"
+tag = "v1.17.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_GMOCK=ON", "-DINSTALL_GTEST=OFF"]
+
+[export]
+include_dirs = ["googletest/include", "googlemock/include"]
+libs = ["gtest", "gtest_main", "gmock", "gmock_main"]

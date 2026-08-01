@@ -1,0 +1,15 @@
+[package]
+name = "curl"
+version = "8.21.0"
+
+[source]
+git = "https://github.com/curl/curl.git"
+tag = "curl-8_21_0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_CURL_EXE=OFF", "-DBUILD_TESTING=OFF"]
+
+[export]
+include_dirs = ["include"]
+libs = ["libcurl"]

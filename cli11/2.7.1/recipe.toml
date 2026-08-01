@@ -1,0 +1,14 @@
+[package]
+name = "cli11"
+version = "2.7.1"
+
+[source]
+git = "https://github.com/CLIUtils/CLI11.git"
+tag = "v2.7.1"
+
+[build]
+system = "cmake"
+args = ["-DCLI11_BUILD_DOCS=OFF", "-DCLI11_BUILD_TESTS=OFF", "-DCLI11_BUILD_EXAMPLES=OFF"]
+
+[export]
+include_dirs = ["include"]

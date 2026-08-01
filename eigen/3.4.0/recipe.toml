@@ -1,0 +1,14 @@
+[package]
+name = "eigen"
+version = "3.4.0"
+
+[source]
+git = "https://gitlab.com/libeigen/eigen.git"
+tag = "3.4.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF"]
+
+[export]
+include_dirs = ["include/eigen3"]
