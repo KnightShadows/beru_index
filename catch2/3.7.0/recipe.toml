@@ -1,0 +1,15 @@
+[package]
+name = "catch2"
+version = "3.7.0"
+
+[source]
+git = "https://github.com/catchorg/Catch2.git"
+tag = "v3.7.0"
+
+[build]
+system = "cmake"
+args = ["-DCATCH_BUILD_TESTING=OFF", "-DCATCH_INSTALL_DOCS=OFF"]
+
+[export]
+include_dirs = ["src/catch2"]
+libs = ["Catch2Main", "Catch2"]

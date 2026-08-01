@@ -1,0 +1,14 @@
+[package]
+name = "cxxopts"
+version = "3.2.0"
+
+[source]
+git = "https://github.com/jarro2783/cxxopts.git"
+tag = "v3.2.0"
+
+[build]
+system = "cmake"
+args = ["-DCXXOPTS_BUILD_EXAMPLES=OFF", "-DCXXOPTS_BUILD_TESTS=OFF"]
+
+[export]
+include_dirs = ["include"]

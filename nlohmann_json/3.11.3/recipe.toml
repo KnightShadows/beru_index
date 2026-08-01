@@ -1,0 +1,14 @@
+[package]
+name = "nlohmann_json"
+version = "3.11.3"
+
+[source]
+git = "https://github.com/nlohmann/json.git"
+tag = "v3.11.3"
+
+[build]
+system = "cmake"
+args = ["-DJSON_BuildTests=OFF"]
+
+[export]
+include_dirs = ["include"]

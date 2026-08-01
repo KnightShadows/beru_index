@@ -1,0 +1,15 @@
+[package]
+name = "fmt"
+version = "11.0.2"
+
+[source]
+git = "https://github.com/fmtlib/fmt.git"
+tag = "11.0.2"
+
+[build]
+system = "cmake"
+args = ["-DFMT_TEST=OFF", "-DFMT_DOC=OFF"]
+
+[export]
+include_dirs = ["include"]
+libs = ["fmt"]
