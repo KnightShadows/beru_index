@@ -1,0 +1,24 @@
+[package]
+name = "openssl"
+version = "3.3.1"
+description = "TLS/SSL and crypto library"
+type = "library"
+
+[source]
+url = "https://github.com/openssl/openssl/releases/download/openssl-3.3.1/openssl-3.3.1.tar.gz"
+sha256 = "777cd596284c883375a2a7a11bf5d2786fc5413255efab20c50d6ffe6d020b7e"
+
+[build]
+system = "custom"
+commands = [
+    # Need to run Configure with prefix
+    "./config --prefix={install_dir} --openssldir={install_dir}/ssl",
+    "make -j{jobs}",
+    "make install_sw"
+]
+
+[export]
+cmake-package = "OpenSSL"
+cmake-targets = ["OpenSSL::SSL", "OpenSSL::Crypto"]
+link-libs = ["ssl", "crypto"]
+include-dirs = ["include"]

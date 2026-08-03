@@ -1,0 +1,23 @@
+[package]
+name = "sqlite3"
+version = "3.46.0"
+description = "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine."
+type = "library"
+
+[source]
+url = "https://sqlite.org/2024/sqlite-autoconf-3460000.tar.gz"
+sha256 = "678e727e57c66d8ba9663da59f71120025f187a544cdd7dcefc96c21a4f008f5"
+
+[build]
+system = "custom"
+commands = [
+    "./configure --prefix=$BERU_PREFIX",
+    "make -j$BERU_JOBS",
+    "make install"
+]
+
+[export]
+cmake-package = "SQLite3"
+cmake-targets = ["SQLite::SQLite3"]
+link-libs = ["sqlite3"]
+include-dirs = ["include"]

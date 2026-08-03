@@ -1,0 +1,17 @@
+[package]
+name = "range-v3"
+version = "0.12.0"
+description = "Range library for C++14/17/20"
+type = "header-only"
+
+[source]
+url = "https://github.com/ericniebler/range-v3/archive/refs/tags/0.12.0.tar.gz"
+sha256 = "015adb2300a98edfceaf0725beec3337f542af4915ce4d688cefa49ea890ed13"
+
+[build]
+system = "cmake"
+cmake-args = ["-DRANGE_V3_TESTS=OFF", "-DRANGE_V3_EXAMPLES=OFF", "-DRANGE_V3_PERF=OFF", "-DRANGE_V3_DOCS=OFF"]
+
+[export]
+cmake-package = "range-v3"
+cmake-targets = ["range-v3::range-v3"]

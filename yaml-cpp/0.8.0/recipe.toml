@@ -1,0 +1,17 @@
+[package]
+name = "yaml-cpp"
+version = "0.8.0"
+description = "A YAML parser and emitter in C++"
+type = "library"
+
+[source]
+url = "https://github.com/jbeder/yaml-cpp/archive/refs/tags/0.8.0.tar.gz"
+sha256 = "fbe74bbdcee21d656715688706da3c8becfd946d92cd44705ce60bce6688ae25"
+
+[build]
+system = "cmake"
+cmake-args = ["-DYAML_CPP_BUILD_TESTS=OFF", "-DYAML_CPP_BUILD_TOOLS=OFF"]
+
+[export]
+cmake-package = "yaml-cpp"
+cmake-targets = ["yaml-cpp::yaml-cpp"]
