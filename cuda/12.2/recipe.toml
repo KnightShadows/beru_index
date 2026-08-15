@@ -1,0 +1,11 @@
+[package]
+name = "cuda"
+version = "12.2"
+
+[source]
+git = "https://github.com/NVIDIA/cuda-samples.git"
+tag = "v12.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,10 @@
+[package]
+name = "imgui"
+version = "1.90.9"
+
+[source]
+git = "https://github.com/ocornut/imgui.git"
+tag = "v1.90.9"
+
+[build]
+system = "cmake"

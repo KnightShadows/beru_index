@@ -1,0 +1,11 @@
+[package]
+name = "mpir"
+version = "mpir-2.7.0"
+
+[source]
+git = "https://github.com/wbhart/mpir.git"
+tag = "mpir-2.7.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

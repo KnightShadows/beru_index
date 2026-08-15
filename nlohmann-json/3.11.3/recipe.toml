@@ -1,0 +1,11 @@
+[package]
+name = "nlohmann-json"
+version = "3.11.3"
+
+[source]
+git = "https://github.com/nlohmann/json.git"
+tag = "v3.11.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

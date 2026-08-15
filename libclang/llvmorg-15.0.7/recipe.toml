@@ -1,0 +1,11 @@
+[package]
+name = "libclang"
+version = "llvmorg-15.0.7"
+
+[source]
+git = "https://github.com/llvm/llvm-project.git"
+tag = "llvmorg-15.0.7"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

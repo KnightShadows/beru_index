@@ -1,0 +1,11 @@
+[package]
+name = "mbedtls"
+version = "3.5.1"
+
+[source]
+git = "https://github.com/Mbed-TLS/mbedtls.git"
+tag = "mbedtls-3.5.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

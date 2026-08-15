@@ -1,0 +1,10 @@
+[package]
+name = "cpp-httplib"
+version = "0.16.0"
+
+[source]
+git = "https://github.com/yhirose/cpp-httplib.git"
+tag = "v0.16.0"
+
+[build]
+system = "cmake"

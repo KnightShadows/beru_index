@@ -1,0 +1,11 @@
+[package]
+name = "glfw"
+version = "3.3.9"
+
+[source]
+git = "https://github.com/glfw/glfw.git"
+tag = "3.3.9"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,10 @@
+[package]
+name = "asio"
+version = "1.30.2"
+
+[source]
+git = "https://github.com/chriskohlhoff/asio.git"
+tag = "asio-1-30-2"
+
+[build]
+system = "cmake"

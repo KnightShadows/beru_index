@@ -1,0 +1,11 @@
+[package]
+name = "doctest"
+version = "2.4.9"
+
+[source]
+git = "https://github.com/doctest/doctest.git"
+tag = "v2.4.9"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

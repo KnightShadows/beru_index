@@ -1,0 +1,10 @@
+[package]
+name = "abseil-cpp"
+version = "20230125.3"
+
+[source]
+git = "https://github.com/abseil/abseil-cpp.git"
+tag = "20230125.3"
+
+[build]
+system = "cmake"

@@ -1,0 +1,11 @@
+[package]
+name = "byte-lite"
+version = "0.3.0"
+
+[source]
+git = "https://github.com/martinmoene/byte-lite.git"
+tag = "v0.3.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

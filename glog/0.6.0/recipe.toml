@@ -1,0 +1,11 @@
+[package]
+name = "glog"
+version = "0.6.0"
+
+[source]
+git = "https://github.com/google/glog.git"
+tag = "v0.6.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

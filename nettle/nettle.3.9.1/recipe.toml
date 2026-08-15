@@ -1,0 +1,11 @@
+[package]
+name = "nettle"
+version = "nettle.3.9.1"
+
+[source]
+git = "https://git.lysator.liu.se/nettle/nettle.git"
+tag = "nettle_3.9.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

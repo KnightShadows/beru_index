@@ -1,0 +1,10 @@
+[package]
+name = "simpleini"
+version = "4.20"
+
+[source]
+git = "https://github.com/brofield/simpleini.git"
+tag = "4.20"
+
+[build]
+system = "cmake"

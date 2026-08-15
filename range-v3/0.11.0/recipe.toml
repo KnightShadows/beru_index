@@ -1,0 +1,11 @@
+[package]
+name = "range-v3"
+version = "0.11.0"
+
+[source]
+git = "https://github.com/ericniebler/range-v3.git"
+tag = "0.11.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

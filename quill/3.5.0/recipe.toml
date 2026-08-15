@@ -1,0 +1,11 @@
+[package]
+name = "quill"
+version = "3.5.0"
+
+[source]
+git = "https://github.com/odygrd/quill.git"
+tag = "v3.5.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

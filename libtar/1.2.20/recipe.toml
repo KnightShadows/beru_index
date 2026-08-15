@@ -1,0 +1,11 @@
+[package]
+name = "libtar"
+version = "1.2.20"
+
+[source]
+git = "https://repo.or.cz/libtar.git"
+tag = "v1.2.20"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

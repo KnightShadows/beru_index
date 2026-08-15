@@ -1,0 +1,11 @@
+[package]
+name = "sqlite3"
+version = "ersion-3.43.2"
+
+[source]
+git = "https://github.com/sqlite/sqlite.git"
+tag = "version-3.43.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

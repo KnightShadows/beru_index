@@ -1,0 +1,11 @@
+[package]
+name = "pybind11"
+version = "2.10.4"
+
+[source]
+git = "https://github.com/pybind/pybind11.git"
+tag = "v2.10.4"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "computecpp"
+version = "1.2.0"
+
+[source]
+git = "https://github.com/codeplaysoftware/computecpp-sdk.git"
+tag = "v1.2.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

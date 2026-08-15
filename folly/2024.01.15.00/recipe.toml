@@ -1,0 +1,11 @@
+[package]
+name = "folly"
+version = "2024.01.15.00"
+
+[source]
+git = "https://github.com/facebook/folly.git"
+tag = "v2024.01.15.00"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

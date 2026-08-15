@@ -1,0 +1,11 @@
+[package]
+name = "restbed"
+version = "4.8"
+
+[source]
+git = "https://github.com/Corvusoft/restbed.git"
+tag = "4.8"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

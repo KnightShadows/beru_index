@@ -1,0 +1,11 @@
+[package]
+name = "opengl"
+version = "main"
+
+[source]
+git = "https://github.com/KhronosGroup/OpenGL-Registry.git"
+tag = "main"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

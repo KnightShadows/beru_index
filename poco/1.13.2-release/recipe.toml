@@ -1,0 +1,11 @@
+[package]
+name = "poco"
+version = "1.13.2-release"
+
+[source]
+git = "https://github.com/pocoproject/poco.git"
+tag = "poco-1.13.2-release"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "unqlite"
+version = "1.1.9"
+
+[source]
+git = "https://github.com/symisc/unqlite.git"
+tag = "v1.1.9"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

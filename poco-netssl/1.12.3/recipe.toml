@@ -1,0 +1,11 @@
+[package]
+name = "poco-netssl"
+version = "1.12.3"
+
+[source]
+git = "https://github.com/pocoproject/poco.git"
+tag = "poco-1.12.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

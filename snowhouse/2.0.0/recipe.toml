@@ -1,0 +1,11 @@
+[package]
+name = "snowhouse"
+version = "2.0.0"
+
+[source]
+git = "https://github.com/banditcpp/snowhouse.git"
+tag = "v2.0.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

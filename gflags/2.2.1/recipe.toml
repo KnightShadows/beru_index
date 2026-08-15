@@ -1,0 +1,11 @@
+[package]
+name = "gflags"
+version = "2.2.1"
+
+[source]
+git = "https://github.com/gflags/gflags.git"
+tag = "v2.2.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "easyloggingpp"
+version = "9.96.7"
+
+[source]
+git = "https://github.com/amrayn/easyloggingpp.git"
+tag = "v9.96.7"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

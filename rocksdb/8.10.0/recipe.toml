@@ -1,0 +1,11 @@
+[package]
+name = "rocksdb"
+version = "8.10.0"
+
+[source]
+git = "https://github.com/facebook/rocksdb.git"
+tag = "v8.10.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

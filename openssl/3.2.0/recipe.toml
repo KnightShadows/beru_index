@@ -1,0 +1,11 @@
+[package]
+name = "openssl"
+version = "3.2.0"
+
+[source]
+git = "https://github.com/openssl/openssl.git"
+tag = "openssl-3.2.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

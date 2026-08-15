@@ -1,0 +1,11 @@
+[package]
+name = "duktape"
+version = "2.7.0"
+
+[source]
+git = "https://github.com/svaarala/duktape.git"
+tag = "v2.7.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

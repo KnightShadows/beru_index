@@ -1,0 +1,11 @@
+[package]
+name = "angelscript"
+version = "2.36.0"
+
+[source]
+git = "https://github.com/samhocevar/angelscript.git"
+tag = "v2.36.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

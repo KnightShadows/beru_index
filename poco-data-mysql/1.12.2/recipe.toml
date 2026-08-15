@@ -1,0 +1,11 @@
+[package]
+name = "poco-data-mysql"
+version = "1.12.2"
+
+[source]
+git = "https://github.com/pocoproject/poco.git"
+tag = "poco-1.12.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "capnproto"
+version = "0.9.2"
+
+[source]
+git = "https://github.com/capnproto/capnproto.git"
+tag = "v0.9.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

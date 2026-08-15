@@ -1,0 +1,11 @@
+[package]
+name = "rttr"
+version = "0.9.0"
+
+[source]
+git = "https://github.com/rttrorg/rttr.git"
+tag = "v0.9.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

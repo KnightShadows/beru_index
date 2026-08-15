@@ -1,0 +1,11 @@
+[package]
+name = "argparse"
+version = "2.8.0"
+
+[source]
+git = "https://github.com/p-ranav/argparse.git"
+tag = "v2.8.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

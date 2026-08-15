@@ -1,0 +1,11 @@
+[package]
+name = "nsimd"
+version = "3.0"
+
+[source]
+git = "https://github.com/agenium-scale/nsimd.git"
+tag = "v3.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

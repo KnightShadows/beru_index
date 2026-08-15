@@ -1,0 +1,11 @@
+[package]
+name = "flecs"
+version = "3.2.4"
+
+[source]
+git = "https://github.com/SanderMertens/flecs.git"
+tag = "v3.2.4"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

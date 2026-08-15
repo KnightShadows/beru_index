@@ -1,0 +1,10 @@
+[package]
+name = "simdjson"
+version = "3.8.0"
+
+[source]
+git = "https://github.com/simdjson/simdjson.git"
+tag = "v3.8.0"
+
+[build]
+system = "cmake"

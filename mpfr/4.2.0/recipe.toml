@@ -1,0 +1,11 @@
+[package]
+name = "mpfr"
+version = "4.2.0"
+
+[source]
+git = "https://github.com/mpfr-math/mpfr.git"
+tag = "v4.2.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

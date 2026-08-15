@@ -1,0 +1,11 @@
+[package]
+name = "hpx"
+version = "1.9.0"
+
+[source]
+git = "https://github.com/STEllAR-GROUP/hpx.git"
+tag = "v1.9.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

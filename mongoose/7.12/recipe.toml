@@ -1,0 +1,11 @@
+[package]
+name = "mongoose"
+version = "7.12"
+
+[source]
+git = "https://github.com/cesanta/mongoose.git"
+tag = "7.12"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

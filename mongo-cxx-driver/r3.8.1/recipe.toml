@@ -1,0 +1,11 @@
+[package]
+name = "mongo-cxx-driver"
+version = "r3.8.1"
+
+[source]
+git = "https://github.com/mongodb/mongo-cxx-driver.git"
+tag = "r3.8.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

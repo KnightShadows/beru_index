@@ -1,0 +1,11 @@
+[package]
+name = "flatbuffers"
+version = "23.5.8"
+
+[source]
+git = "https://github.com/google/flatbuffers.git"
+tag = "v23.5.8"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "qhttpengine"
+version = "1.0.1"
+
+[source]
+git = "https://github.com/nitroshare/qhttpengine.git"
+tag = "1.0.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

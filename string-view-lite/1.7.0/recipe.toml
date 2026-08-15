@@ -1,0 +1,11 @@
+[package]
+name = "string-view-lite"
+version = "1.7.0"
+
+[source]
+git = "https://github.com/martinmoene/string-view-lite.git"
+tag = "v1.7.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

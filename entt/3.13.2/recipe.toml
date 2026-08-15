@@ -1,0 +1,10 @@
+[package]
+name = "entt"
+version = "3.13.2"
+
+[source]
+git = "https://github.com/skypjack/entt.git"
+tag = "v3.13.2"
+
+[build]
+system = "cmake"

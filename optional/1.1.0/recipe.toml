@@ -1,0 +1,10 @@
+[package]
+name = "optional"
+version = "1.1.0"
+
+[source]
+git = "https://github.com/TartanLlama/optional.git"
+tag = "v1.1.0"
+
+[build]
+system = "cmake"

@@ -1,0 +1,11 @@
+[package]
+name = "wolfssl"
+version = "5.6.5-stable"
+
+[source]
+git = "https://github.com/wolfSSL/wolfssl.git"
+tag = "v5.6.5-stable"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

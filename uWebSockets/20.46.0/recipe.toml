@@ -1,0 +1,11 @@
+[package]
+name = "uWebSockets"
+version = "20.46.0"
+
+[source]
+git = "https://github.com/uNetworking/uWebSockets.git"
+tag = "v20.46.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

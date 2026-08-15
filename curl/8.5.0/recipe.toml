@@ -1,0 +1,11 @@
+[package]
+name = "curl"
+version = "8.5.0"
+
+[source]
+git = "https://github.com/curl/curl.git"
+tag = "curl-8_5_0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

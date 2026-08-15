@@ -1,0 +1,11 @@
+[package]
+name = "leveldb"
+version = "1.23"
+
+[source]
+git = "https://github.com/google/leveldb.git"
+tag = "1.23"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

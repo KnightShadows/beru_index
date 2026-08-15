@@ -1,0 +1,11 @@
+[package]
+name = "benchmark"
+version = "1.8.2"
+
+[source]
+git = "https://github.com/google/benchmark.git"
+tag = "v1.8.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

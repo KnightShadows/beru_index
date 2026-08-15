@@ -1,0 +1,10 @@
+[package]
+name = "backward-cpp"
+version = "1.5"
+
+[source]
+git = "https://github.com/bombela/backward-cpp.git"
+tag = "v1.5"
+
+[build]
+system = "cmake"

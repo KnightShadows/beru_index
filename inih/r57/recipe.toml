@@ -1,0 +1,11 @@
+[package]
+name = "inih"
+version = "r57"
+
+[source]
+git = "https://github.com/benhoyt/inih.git"
+tag = "r57"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

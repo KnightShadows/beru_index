@@ -1,0 +1,11 @@
+[package]
+name = "vc"
+version = "1.4.3"
+
+[source]
+git = "https://github.com/VcDevel/Vc.git"
+tag = "1.4.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

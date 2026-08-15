@@ -1,0 +1,11 @@
+[package]
+name = "cppcms"
+version = "1.2.1"
+
+[source]
+git = "https://github.com/artyom-beilis/cppcms.git"
+tag = "v1.2.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

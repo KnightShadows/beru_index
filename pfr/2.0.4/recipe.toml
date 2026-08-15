@@ -1,0 +1,11 @@
+[package]
+name = "pfr"
+version = "2.0.4"
+
+[source]
+git = "https://github.com/boostorg/pfr.git"
+tag = "v2.0.4"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

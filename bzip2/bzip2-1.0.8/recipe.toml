@@ -1,0 +1,11 @@
+[package]
+name = "bzip2"
+version = "bzip2-1.0.8"
+
+[source]
+git = "https://sourceware.org/git/bzip2.git"
+tag = "bzip2-1.0.8"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

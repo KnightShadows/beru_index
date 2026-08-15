@@ -1,0 +1,10 @@
+[package]
+name = "cli11"
+version = "2.4.2"
+
+[source]
+git = "https://github.com/CLIUtils/CLI11.git"
+tag = "v2.4.2"
+
+[build]
+system = "cmake"

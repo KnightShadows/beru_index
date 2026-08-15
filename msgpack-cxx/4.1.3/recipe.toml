@@ -1,0 +1,11 @@
+[package]
+name = "msgpack-cxx"
+version = "4.1.3"
+
+[source]
+git = "https://github.com/msgpack/msgpack-c.git"
+tag = "cpp-4.1.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

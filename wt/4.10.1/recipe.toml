@@ -1,0 +1,11 @@
+[package]
+name = "Wt"
+version = "4.10.1"
+
+[source]
+git = "https://github.com/emweb/wt.git"
+tag = "4.10.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

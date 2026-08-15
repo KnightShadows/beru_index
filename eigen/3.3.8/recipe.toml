@@ -1,0 +1,11 @@
+[package]
+name = "eigen"
+version = "3.3.8"
+
+[source]
+git = "https://gitlab.com/libeigen/eigen.git"
+tag = "3.3.8"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

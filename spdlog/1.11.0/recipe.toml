@@ -1,0 +1,11 @@
+[package]
+name = "spdlog"
+version = "1.11.0"
+
+[source]
+git = "https://github.com/gabime/spdlog.git"
+tag = "v1.11.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

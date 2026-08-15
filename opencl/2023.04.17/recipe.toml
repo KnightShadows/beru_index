@@ -1,0 +1,11 @@
+[package]
+name = "opencl"
+version = "2023.04.17"
+
+[source]
+git = "https://github.com/KhronosGroup/OpenCL-Headers.git"
+tag = "v2023.04.17"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

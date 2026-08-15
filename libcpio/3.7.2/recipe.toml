@@ -1,0 +1,11 @@
+[package]
+name = "libcpio"
+version = "3.7.2"
+
+[source]
+git = "https://github.com/libarchive/libarchive.git"
+tag = "v3.7.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

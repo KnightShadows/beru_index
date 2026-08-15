@@ -1,0 +1,11 @@
+[package]
+name = "openmp"
+version = "5.1.0"
+
+[source]
+git = "https://github.com/OpenMP/Sources.git"
+tag = "v5.1.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

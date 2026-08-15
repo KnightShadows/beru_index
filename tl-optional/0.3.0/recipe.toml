@@ -1,0 +1,11 @@
+[package]
+name = "tl-optional"
+version = "0.3.0"
+
+[source]
+git = "https://github.com/TartanLlama/optional.git"
+tag = "v0.3.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

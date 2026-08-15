@@ -1,0 +1,11 @@
+[package]
+name = "lzo"
+version = "2.09"
+
+[source]
+git = "https://github.com/nemequ/lzo.git"
+tag = "v2.09"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "xsimd"
+version = "11.0.0"
+
+[source]
+git = "https://github.com/xtensor-stack/xsimd.git"
+tag = "11.0.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

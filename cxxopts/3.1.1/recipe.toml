@@ -1,0 +1,11 @@
+[package]
+name = "cxxopts"
+version = "3.1.1"
+
+[source]
+git = "https://github.com/jarro2783/cxxopts.git"
+tag = "v3.1.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

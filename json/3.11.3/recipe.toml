@@ -1,0 +1,10 @@
+[package]
+name = "json"
+version = "3.11.3"
+
+[source]
+git = "https://github.com/nlohmann/json.git"
+tag = "v3.11.3"
+
+[build]
+system = "cmake"

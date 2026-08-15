@@ -1,0 +1,11 @@
+[package]
+name = "jsoncpp"
+version = "1.9.4"
+
+[source]
+git = "https://github.com/open-source-parsers/jsoncpp.git"
+tag = "1.9.4"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

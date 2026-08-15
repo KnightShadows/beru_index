@@ -1,0 +1,10 @@
+[package]
+name = "indicators"
+version = "2.3.0"
+
+[source]
+git = "https://github.com/p-ranav/indicators.git"
+tag = "v2.3.0"
+
+[build]
+system = "cmake"

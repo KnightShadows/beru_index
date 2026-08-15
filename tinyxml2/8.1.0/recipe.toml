@@ -1,0 +1,10 @@
+[package]
+name = "tinyxml2"
+version = "8.1.0"
+
+[source]
+git = "https://github.com/leethomason/tinyxml2.git"
+tag = "8.1.0"
+
+[build]
+system = "cmake"

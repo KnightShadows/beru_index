@@ -1,0 +1,10 @@
+[package]
+name = "ftxui"
+version = "4.1.1"
+
+[source]
+git = "https://github.com/ArthurSonzogni/ftxui.git"
+tag = "v4.1.1"
+
+[build]
+system = "cmake"

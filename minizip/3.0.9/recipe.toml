@@ -1,0 +1,11 @@
+[package]
+name = "minizip"
+version = "3.0.9"
+
+[source]
+git = "https://github.com/zlib-ng/minizip-ng.git"
+tag = "3.0.9"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

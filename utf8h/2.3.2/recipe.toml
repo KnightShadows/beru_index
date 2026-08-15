@@ -1,0 +1,10 @@
+[package]
+name = "utf8h"
+version = "2.3.2"
+
+[source]
+git = "https://github.com/sheredom/utf8.h.git"
+tag = "v2.3.2"
+
+[build]
+system = "cmake"

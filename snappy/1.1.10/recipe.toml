@@ -1,0 +1,11 @@
+[package]
+name = "snappy"
+version = "1.1.10"
+
+[source]
+git = "https://github.com/google/snappy.git"
+tag = "1.1.10"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

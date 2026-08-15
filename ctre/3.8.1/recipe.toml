@@ -1,0 +1,10 @@
+[package]
+name = "ctre"
+version = "3.8.1"
+
+[source]
+git = "https://github.com/hanickadot/compile-time-regular-expressions.git"
+tag = "v3.8.1"
+
+[build]
+system = "cmake"

@@ -1,0 +1,11 @@
+[package]
+name = "armadillo"
+version = "12.8.2"
+
+[source]
+git = "https://gitlab.com/conradsnicta/armadillo-code.git"
+tag = "12.8.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

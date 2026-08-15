@@ -1,0 +1,11 @@
+[package]
+name = "blaze"
+version = "3.7"
+
+[source]
+git = "https://bitbucket.org/blaze-lib/blaze.git"
+tag = "v3.7"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

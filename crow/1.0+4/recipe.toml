@@ -1,0 +1,11 @@
+[package]
+name = "crow"
+version = "1.0+4"
+
+[source]
+git = "https://github.com/CrowCpp/Crow.git"
+tag = "v1.0+4"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

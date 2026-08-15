@@ -1,0 +1,10 @@
+[package]
+name = "nameof"
+version = "0.9.5"
+
+[source]
+git = "https://github.com/Neargye/nameof.git"
+tag = "v0.9.5"
+
+[build]
+system = "cmake"

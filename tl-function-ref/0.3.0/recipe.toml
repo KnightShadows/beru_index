@@ -1,0 +1,10 @@
+[package]
+name = "tl-function-ref"
+version = "0.3.0"
+
+[source]
+git = "https://github.com/TartanLlama/function_ref.git"
+tag = "v0.3.0"
+
+[build]
+system = "cmake"

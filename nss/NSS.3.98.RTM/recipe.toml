@@ -1,0 +1,11 @@
+[package]
+name = "nss"
+version = "NSS.3.98.RTM"
+
+[source]
+git = "https://github.com/nss-dev/nss.git"
+tag = "NSS_3_98_RTM"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

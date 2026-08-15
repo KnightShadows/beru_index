@@ -1,0 +1,11 @@
+[package]
+name = "ixwebsocket"
+version = "11.4.3"
+
+[source]
+git = "https://github.com/machinezone/IXWebSocket.git"
+tag = "v11.4.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

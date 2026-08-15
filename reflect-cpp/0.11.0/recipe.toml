@@ -1,0 +1,11 @@
+[package]
+name = "reflect-cpp"
+version = "0.11.0"
+
+[source]
+git = "https://github.com/getml/reflect-cpp.git"
+tag = "v0.11.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

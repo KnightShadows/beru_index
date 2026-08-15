@@ -1,0 +1,11 @@
+[package]
+name = "drogon"
+version = "1.8.6"
+
+[source]
+git = "https://github.com/drogonframework/drogon.git"
+tag = "v1.8.6"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

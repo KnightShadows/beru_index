@@ -1,0 +1,11 @@
+[package]
+name = "treefrog"
+version = "2.3.0"
+
+[source]
+git = "https://github.com/treefrogframework/treefrog-framework.git"
+tag = "v2.3.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

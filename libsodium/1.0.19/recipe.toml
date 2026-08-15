@@ -1,0 +1,11 @@
+[package]
+name = "libsodium"
+version = "1.0.19"
+
+[source]
+git = "https://github.com/jedisct1/libsodium.git"
+tag = "1.0.19"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

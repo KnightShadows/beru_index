@@ -1,0 +1,11 @@
+[package]
+name = "libconfig"
+version = "1.7.3"
+
+[source]
+git = "https://github.com/hyperrealm/libconfig.git"
+tag = "v1.7.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

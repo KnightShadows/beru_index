@@ -1,0 +1,11 @@
+[package]
+name = "raja"
+version = "2022.10.5"
+
+[source]
+git = "https://github.com/LLNL/RAJA.git"
+tag = "v2022.10.5"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

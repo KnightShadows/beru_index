@@ -1,0 +1,11 @@
+[package]
+name = "sycl"
+version = "sycl-nightly/20240116"
+
+[source]
+git = "https://github.com/intel/llvm.git"
+tag = "sycl-nightly/20240116"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

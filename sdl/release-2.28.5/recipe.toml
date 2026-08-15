@@ -1,0 +1,11 @@
+[package]
+name = "sdl"
+version = "release-2.28.5"
+
+[source]
+git = "https://github.com/libsdl-org/SDL.git"
+tag = "release-2.28.5"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

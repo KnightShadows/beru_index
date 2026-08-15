@@ -1,0 +1,10 @@
+[package]
+name = "date"
+version = "2.4.1"
+
+[source]
+git = "https://github.com/HowardHinnant/date.git"
+tag = "v2.4.1"
+
+[build]
+system = "cmake"

@@ -1,0 +1,11 @@
+[package]
+name = "fmt"
+version = "10.2.1"
+
+[source]
+git = "https://github.com/fmtlib/fmt.git"
+tag = "10.2.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

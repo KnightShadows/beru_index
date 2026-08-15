@@ -1,0 +1,11 @@
+[package]
+name = "sqlpp11"
+version = "0.59"
+
+[source]
+git = "https://github.com/rbock/sqlpp11.git"
+tag = "0.59"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

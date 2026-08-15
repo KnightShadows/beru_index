@@ -1,0 +1,10 @@
+[package]
+name = "dirent"
+version = "1.24"
+
+[source]
+git = "https://github.com/tronkko/dirent.git"
+tag = "1.24"
+
+[build]
+system = "cmake"

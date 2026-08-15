@@ -1,0 +1,11 @@
+[package]
+name = "cpprestsdk"
+version = "2.10.18"
+
+[source]
+git = "https://github.com/microsoft/cpprestsdk.git"
+tag = "v2.10.18"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

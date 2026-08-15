@@ -1,0 +1,11 @@
+[package]
+name = "lmdb"
+version = "LMDB.0.9.30"
+
+[source]
+git = "https://github.com/LMDB/lmdb.git"
+tag = "LMDB_0.9.30"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

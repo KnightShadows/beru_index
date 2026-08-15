@@ -1,0 +1,11 @@
+[package]
+name = "nameof"
+version = "0.10.1"
+
+[source]
+git = "https://github.com/Neargye/nameof.git"
+tag = "v0.10.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

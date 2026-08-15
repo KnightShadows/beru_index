@@ -1,0 +1,11 @@
+[package]
+name = "boringssl"
+version = "master"
+
+[source]
+git = "https://github.com/google/boringssl.git"
+tag = "master"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

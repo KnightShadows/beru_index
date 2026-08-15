@@ -1,0 +1,11 @@
+[package]
+name = "qcustomplot"
+version = "2.1.1"
+
+[source]
+git = "https://gitlab.com/DerManu/QCustomPlot.git"
+tag = "v2.1.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "libgcrypt"
+version = "libgcrypt-1.10.2"
+
+[source]
+git = "https://dev.gnupg.org/source/libgcrypt.git"
+tag = "libgcrypt-1.10.2"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

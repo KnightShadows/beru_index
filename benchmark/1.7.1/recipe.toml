@@ -1,0 +1,10 @@
+[package]
+name = "benchmark"
+version = "1.7.1"
+
+[source]
+git = "https://github.com/google/benchmark.git"
+tag = "v1.7.1"
+
+[build]
+system = "cmake"

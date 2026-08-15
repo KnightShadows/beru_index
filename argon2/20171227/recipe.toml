@@ -1,0 +1,11 @@
+[package]
+name = "argon2"
+version = "20171227"
+
+[source]
+git = "https://github.com/P-H-C/phc-winner-argon2.git"
+tag = "20171227"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

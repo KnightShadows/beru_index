@@ -1,0 +1,11 @@
+[package]
+name = "cppast"
+version = "0.2.0"
+
+[source]
+git = "https://github.com/foonathan/cppast.git"
+tag = "v0.2.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

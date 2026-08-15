@@ -1,0 +1,10 @@
+[package]
+name = "re2"
+version = "2024.06.01"
+
+[source]
+git = "https://github.com/google/re2.git"
+tag = "2024-06-01"
+
+[build]
+system = "cmake"

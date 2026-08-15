@@ -1,0 +1,10 @@
+[package]
+name = "pugixml"
+version = "1.14"
+
+[source]
+git = "https://github.com/zeux/pugixml.git"
+tag = "v1.14"
+
+[build]
+system = "cmake"

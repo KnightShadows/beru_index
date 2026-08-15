@@ -1,0 +1,11 @@
+[package]
+name = "value-ptr-lite"
+version = "0.0.1"
+
+[source]
+git = "https://github.com/martinmoene/value-ptr-lite.git"
+tag = "v0.0.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "hip"
+version = "rocm-5.7.1"
+
+[source]
+git = "https://github.com/ROCm/HIP.git"
+tag = "rocm-5.7.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

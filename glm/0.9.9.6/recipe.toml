@@ -1,0 +1,10 @@
+[package]
+name = "glm"
+version = "0.9.9.6"
+
+[source]
+git = "https://github.com/g-truc/glm.git"
+tag = "0.9.9.6"
+
+[build]
+system = "cmake"

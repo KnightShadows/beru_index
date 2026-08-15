@@ -1,0 +1,11 @@
+[package]
+name = "outcome"
+version = "2.2.8"
+
+[source]
+git = "https://github.com/ned14/outcome.git"
+tag = "v2.2.8"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

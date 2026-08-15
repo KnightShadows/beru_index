@@ -1,0 +1,10 @@
+[package]
+name = "cpp-base64"
+version = "1.rc.01"
+
+[source]
+git = "https://github.com/ReneNyffenegger/cpp-base64.git"
+tag = "v1.rc.01"
+
+[build]
+system = "cmake"

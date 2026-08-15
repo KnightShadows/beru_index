@@ -8,8 +8,3 @@ tag = "v1.14.1"
 
 [build]
 system = "cmake"
-args = ["-DSPDLOG_BUILD_TESTS=OFF", "-DSPDLOG_BUILD_EXAMPLE=OFF", "-DSPDLOG_FMT_EXTERNAL=ON"]
-
-[export]
-include_dirs = ["include"]
-libs = ["spdlog"]

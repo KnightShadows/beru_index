@@ -1,0 +1,11 @@
+[package]
+name = "vulkan"
+version = "1.3.268"
+
+[source]
+git = "https://github.com/KhronosGroup/Vulkan-Headers.git"
+tag = "v1.3.268"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,11 @@
+[package]
+name = "pqxx"
+version = "7.8.1"
+
+[source]
+git = "https://github.com/jtv/libpqxx.git"
+tag = "7.8.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

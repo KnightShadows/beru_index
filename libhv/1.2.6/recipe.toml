@@ -1,0 +1,11 @@
+[package]
+name = "libhv"
+version = "1.2.6"
+
+[source]
+git = "https://github.com/ithewei/libhv.git"
+tag = "v1.2.6"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

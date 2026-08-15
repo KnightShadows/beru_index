@@ -1,0 +1,11 @@
+[package]
+name = "imgui"
+version = "1.88"
+
+[source]
+git = "https://github.com/ocornut/imgui.git"
+tag = "v1.88"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

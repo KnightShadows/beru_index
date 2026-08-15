@@ -1,0 +1,11 @@
+[package]
+name = "boost"
+version = "1.84.0"
+
+[source]
+git = "https://github.com/boostorg/boost.git"
+tag = "boost-1.84.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

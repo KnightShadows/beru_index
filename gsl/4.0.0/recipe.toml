@@ -1,0 +1,11 @@
+[package]
+name = "gsl"
+version = "4.0.0"
+
+[source]
+git = "https://github.com/microsoft/GSL.git"
+tag = "v4.0.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

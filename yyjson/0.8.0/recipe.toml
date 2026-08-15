@@ -1,0 +1,11 @@
+[package]
+name = "yyjson"
+version = "0.8.0"
+
+[source]
+git = "https://github.com/ibireme/yyjson.git"
+tag = "0.8.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

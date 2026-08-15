@@ -1,0 +1,10 @@
+[package]
+name = "magic_enum"
+version = "0.9.5"
+
+[source]
+git = "https://github.com/Neargye/magic_enum.git"
+tag = "v0.9.5"
+
+[build]
+system = "cmake"

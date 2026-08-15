@@ -1,0 +1,10 @@
+[package]
+name = "stduuid"
+version = "1.0"
+
+[source]
+git = "https://github.com/mariusbancila/stduuid.git"
+tag = "v1.0"
+
+[build]
+system = "cmake"

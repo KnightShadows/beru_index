@@ -1,0 +1,11 @@
+[package]
+name = "span-lite"
+version = "0.10.3"
+
+[source]
+git = "https://github.com/martinmoene/span-lite.git"
+tag = "v0.10.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

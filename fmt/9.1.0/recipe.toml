@@ -1,0 +1,10 @@
+[package]
+name = "fmt"
+version = "9.1.0"
+
+[source]
+git = "https://github.com/fmtlib/fmt.git"
+tag = "9.1.0"
+
+[build]
+system = "cmake"

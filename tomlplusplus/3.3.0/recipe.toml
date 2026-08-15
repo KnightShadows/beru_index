@@ -1,0 +1,11 @@
+[package]
+name = "tomlplusplus"
+version = "3.3.0"
+
+[source]
+git = "https://github.com/marzer/tomlplusplus.git"
+tag = "v3.3.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

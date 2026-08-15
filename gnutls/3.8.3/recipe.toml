@@ -1,0 +1,11 @@
+[package]
+name = "gnutls"
+version = "3.8.3"
+
+[source]
+git = "https://gitlab.com/gnutls/gnutls.git"
+tag = "3.8.3"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

@@ -1,0 +1,10 @@
+[package]
+name = "tabulate"
+version = "1.4.0"
+
+[source]
+git = "https://github.com/p-ranav/tabulate.git"
+tag = "v1.4.0"
+
+[build]
+system = "cmake"

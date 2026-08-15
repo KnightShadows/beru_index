@@ -1,0 +1,11 @@
+[package]
+name = "cassandra-cpp-driver"
+version = "2.17.0"
+
+[source]
+git = "https://github.com/datastax/cpp-driver.git"
+tag = "2.17.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

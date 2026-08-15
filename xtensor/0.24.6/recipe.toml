@@ -1,0 +1,11 @@
+[package]
+name = "xtensor"
+version = "0.24.6"
+
+[source]
+git = "https://github.com/xtensor-stack/xtensor.git"
+tag = "0.24.6"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

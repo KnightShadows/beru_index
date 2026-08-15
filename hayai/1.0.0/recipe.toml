@@ -1,0 +1,11 @@
+[package]
+name = "hayai"
+version = "1.0.0"
+
+[source]
+git = "https://github.com/nickbruun/hayai.git"
+tag = "v1.0.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

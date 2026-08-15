@@ -1,0 +1,10 @@
+[package]
+name = "pegtl"
+version = "3.2.6"
+
+[source]
+git = "https://github.com/taocpp/PEGTL.git"
+tag = "3.2.6"
+
+[build]
+system = "cmake"

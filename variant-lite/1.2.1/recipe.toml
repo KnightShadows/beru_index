@@ -1,0 +1,11 @@
+[package]
+name = "variant-lite"
+version = "1.2.1"
+
+[source]
+git = "https://github.com/martinmoene/variant-lite.git"
+tag = "v1.2.1"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

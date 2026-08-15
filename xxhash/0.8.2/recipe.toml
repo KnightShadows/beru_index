@@ -1,0 +1,10 @@
+[package]
+name = "xxhash"
+version = "0.8.2"
+
+[source]
+git = "https://github.com/Cyan4973/xxHash.git"
+tag = "v0.8.2"
+
+[build]
+system = "cmake"

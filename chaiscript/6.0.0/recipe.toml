@@ -1,0 +1,11 @@
+[package]
+name = "chaiscript"
+version = "6.0.0"
+
+[source]
+git = "https://github.com/ChaiScript/ChaiScript.git"
+tag = "v6.0.0"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]

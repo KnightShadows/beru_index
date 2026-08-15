@@ -1,0 +1,11 @@
+[package]
+name = "kokkos"
+version = "4.0.01"
+
+[source]
+git = "https://github.com/kokkos/kokkos.git"
+tag = "4.0.01"
+
+[build]
+system = "cmake"
+args = ["-DBUILD_TESTING=OFF", "-DBUILD_EXAMPLES=OFF"]
